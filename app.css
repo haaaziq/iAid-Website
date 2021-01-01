@@ -1,7 +1,7 @@
 body {
     font-family: Raleway;
-    background-color: rgb(224, 224, 224);
 }
+
 nav a img {
     margin: 5px 0 5px 0;
     width: 90px;
@@ -13,7 +13,11 @@ nav li.nav-item {
 }
 
 li.active {
-    border-bottom: 2px solid rgb(22,149,138);
+    border-bottom: 1.5px solid rgb(22,149,138);
+}
+
+li.active a i{
+    color: rgb(22,149,138);
 }
 
 li.nav-item:hover {
@@ -49,6 +53,7 @@ div.imageContent{
     color: white;
     font-weight: bold;
     font-family: 'Lobster';
+    letter-spacing: 0.08em;
 }
 
 .imageContent button {
@@ -56,9 +61,48 @@ div.imageContent{
     font-size: 1.2em;
 }
 
+div.overviewSection div.overviewS1 h4 {
+    color: rgb(22,149,138);
+    font-weight: bold;
+    font-family: 'Montserrat';
+    letter-spacing: 0.1em;
+}
+
+div.overviewSection div.overviewS2{
+    display: flex;
+    justify-content: space-around;
+}
+
+div.overviewSection div.overviewS2 img{
+    width: 250px;
+}
+
 .workingSection h2 {
     font-size: 2.8em;
     color: rgb(27, 164, 215);
     font-family: 'Lobster';
     font-weight: bold;
+}
+
+.gradientBody {
+    height: 100%;
+    background-image: linear-gradient(to right, rgb(41, 213, 178) , rgb(27, 164, 215));
+}
+
+.aboutSection h2,
+.workSection h2 {
+    font-size: 2.8em;
+    color: white;
+    font-family: 'Lobster';
+    font-weight: bold;
+}
+
+.aboutSection p {
+    color: white;
+    line-height: 1.7em;
+    letter-spacing: 0.11em;
+}
+
+.workSection p {
+    color: white;
 }
