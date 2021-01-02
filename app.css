@@ -30,6 +30,10 @@ li.nav-item:hover {
     color: white;
 }
 
+/*
+___________INDEX.html_____________
+*/
+
 div.topCoverImage {
     position: relative;
     width: 100%;
@@ -52,8 +56,9 @@ div.imageContent{
     font-size: 3em;
     color: white;
     font-weight: bold;
-    font-family: 'Lobster';
+    font-family: 'Montserrat';
     letter-spacing: 0.08em;
+    line-height: 1.5em;
 }
 
 .imageContent button {
@@ -61,11 +66,20 @@ div.imageContent{
     font-size: 1.2em;
 }
 
+button img {
+    width: 1.4em;
+}
+
 div.overviewSection div.overviewS1 h4 {
     color: rgb(22,149,138);
     font-weight: bold;
     font-family: 'Montserrat';
     letter-spacing: 0.1em;
+}
+
+div.overviewSection div.overviewS1 h2 {
+    line-height: 1.5em;
+    letter-spacing: 0.07em;
 }
 
 div.overviewSection div.overviewS2{
@@ -77,12 +91,37 @@ div.overviewSection div.overviewS2 img{
     width: 250px;
 }
 
-.workingSection h2 {
-    font-size: 2.8em;
-    color: rgb(27, 164, 215);
-    font-family: 'Lobster';
-    font-weight: bold;
+.downloadSection{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 100px 0 100px 0;
+    background-color: rgb(22,149,138);
 }
+
+.downloadSection h2 {
+    font-size: 2.8em;
+    color: white;
+    font-family: 'Montserrat';
+    margin-bottom: 25px;
+}
+
+.downloadSection h4{
+    font-size: 1.2em;
+    font-family: 'Montserrat';
+    color: rgb(197, 197, 197);
+    letter-spacing: 0.06em;
+    margin-bottom: 25px;
+}
+
+.footerSection {
+    padding: 50px 0 50px 0;
+    color: white;
+    font-family: 'Montserrat';
+    background-color: rgb(39, 39, 39);
+}
+
+/***************************************************************/
+/***************************************************************/
 
 .gradientBody {
     height: 100%;
