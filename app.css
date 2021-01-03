@@ -30,9 +30,9 @@ li.nav-item:hover {
     color: white;
 }
 
-/*
+/*********************************
 ___________INDEX.html_____________
-*/
+**********************************/
 
 div.topCoverImage {
     position: relative;
@@ -48,7 +48,11 @@ div.imageContent{
     width: 100%;
     text-align: center;
     position: absolute;
-    top: 150px;
+    top: 85px;
+}
+
+div.imageContent img.imageIcon {
+    width: 5em;
 }
 
 .imageContent h2{
@@ -85,10 +89,59 @@ div.overviewSection div.overviewS1 h2 {
 div.overviewSection div.overviewS2{
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
 }
 
 div.overviewSection div.overviewS2 img{
     width: 250px;
+}
+
+div.overviewS2 p{
+    width: 250px;
+    font-size: 1.15em;
+    letter-spacing: 0.08em;
+    line-height: 1.8em;
+    color: rgb(114, 114, 114);
+}
+
+.focus-bar {
+    width: 29px;
+    height: 9px;
+    margin-bottom: 15px;
+    background-color: rgb(22,149,138);
+}
+
+section h4{
+    font-weight: bold;
+    font-size: 1.2em;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    color: rgb(22,149,138);
+}
+
+section h3{
+    font-size: 1.05em;
+    letter-spacing: 0.08em;
+    line-height: 2.2em;
+}
+
+section#requests div.whiteBar{
+    background-color: white;
+}
+
+section {
+    padding: 50px 0 50px 0;
+}
+
+section#requests {
+    background: rgb(27, 164, 215);
+    color: white;
+}
+
+section#requests h4{
+    color: white;
 }
 
 .downloadSection{
@@ -118,6 +171,11 @@ div.overviewSection div.overviewS2 img{
     color: white;
     font-family: 'Montserrat';
     background-color: rgb(39, 39, 39);
+}
+
+.footerSection a{
+    color: white;
+    font-size: 0.85em;
 }
 
 /***************************************************************/
