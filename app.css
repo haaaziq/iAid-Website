@@ -70,7 +70,7 @@ div.imageContent img.imageIcon {
     font-size: 1.2em;
 }
 
-button img {
+a img {
     width: 1.4em;
 }
 
@@ -181,6 +181,10 @@ section#requests h4{
 /***************************************************************/
 /***************************************************************/
 
+/***************************************************************
+    about.html
+***************************************************************/
+
 .gradientBody {
     height: 100%;
     background-image: linear-gradient(to right, rgb(41, 213, 178) , rgb(27, 164, 215));
@@ -188,10 +192,11 @@ section#requests h4{
 
 .aboutSection h2,
 .workSection h2 {
-    font-size: 2.8em;
-    color: white;
-    font-family: 'Lobster';
+    margin-top: 20px;
+    font-size: 2.2em;
+    font-family: 'Montserrat';
     font-weight: bold;
+    color: white;
 }
 
 .aboutSection p {
@@ -199,6 +204,65 @@ section#requests h4{
     line-height: 1.7em;
     letter-spacing: 0.11em;
 }
+
+.ourDetails{
+    margin: 30px 0;
+    padding: 30px 0;
+    color: white;
+}
+
+.ourDetails img{
+    height: 250px;
+    width: 250px;
+    background-color: white;
+}
+
+.ourDetails h5{
+    font-family: 'Redressed';
+    font-size: 1.7em;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.ourDetails p{
+    font-size: 0.85em;
+    color: rgb(216, 216, 216);
+}
+
+.ourDetails a{
+    font-size: 0.9em;
+    color: rgb(51, 51, 51);
+
+}
+
+.ourDetails a i{
+    font-size: 1.3em;
+    color: black;
+}
+
+.contactForm{
+    background-color: white;
+    max-width: 600px;
+    padding: 30px 30px;
+    width: 85%;
+    margin: 50px auto;
+    border-radius: 50px;
+    box-shadow: -3px 2px 4px rgb(168, 168, 168), -4px 3px 6px rgb(192, 192, 192), -5px 0 8px rgb(136, 136, 136);
+}
+
+.contactForm h2{
+    margin-bottom: 10px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: rgb(22,149,138);
+}
+
+/***************************************************************/
+/***************************************************************/
+
+/***************************************************************
+    working.html
+***************************************************************/
 
 .workSection p {
     color: white;
