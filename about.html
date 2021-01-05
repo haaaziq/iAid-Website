@@ -90,22 +90,22 @@
 
         <div class="contactForm container">
             <h2 class="text-center">Contact Us</h2>
-            <form>
+            <form target="_blank" action="https://formsubmit.co/iaid.smilebox@gmail.com" method="POST">
                 <div class="form-group">
                     <label for="exampleFormControlInput3">First Name</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput3" placeholder="first name">
+                    <input type="text" name="First Name" class="form-control" id="exampleFormControlInput3" placeholder="first name" required>
                 </div>
                 <div class="form-group">
                     <label for="exampleFormControlInput2">Last Name</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="last name">
+                    <input type="text" name="Last Name" class="form-control" id="exampleFormControlInput2" placeholder="last name" required>
                 </div>
                 <div class="form-group">
                     <label for="exampleFormControlInput1">Email address</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
                 </div>
                 <div class="form-group">
                     <label for="exampleFormControlTextarea1">Message</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="your message...."></textarea>
+                    <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="your message...." required></textarea>
                 </div>
                 <div class="text-right">
                     <button type="submit" class="btn btn-info">Send <i class="far fa-comment-dots"></i></button>

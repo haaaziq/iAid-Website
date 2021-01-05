@@ -82,13 +82,14 @@ div.overviewSection div.overviewS1 h4 {
 }
 
 div.overviewSection div.overviewS1 h2 {
+    margin-top: 30px;
     line-height: 1.5em;
     letter-spacing: 0.07em;
 }
 
 div.overviewSection div.overviewS2{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin-bottom: 30px;
 }
@@ -178,9 +179,6 @@ section#requests h4{
     font-size: 0.85em;
 }
 
-/***************************************************************/
-/***************************************************************/
-
 /***************************************************************
     about.html
 ***************************************************************/
@@ -212,6 +210,7 @@ section#requests h4{
 }
 
 .ourDetails img{
+    text-align: center;
     height: 250px;
     width: 250px;
     background-color: white;
@@ -267,3 +266,265 @@ section#requests h4{
 .workSection p {
     color: white;
 }
+
+
+/*************************Media Queries******************************/
+
+@media(max-width:992px){
+
+    div.overviewSection div.overviewS2 img{
+        width: 180px;
+    }
+    
+    div.overviewS2 p{
+        width: 180px;
+        font-size: 0.9em;
+    }
+
+}
+    /*****************************************/
+
+@media(max-width: 815px){
+    
+    .imageContent h2{
+        font-size: 2em;
+    }
+
+    div.overviewSection div.overviewS1 h2 {
+        font-size: 1.5em;
+    }
+    
+    section h4{
+        font-size: 1em;
+    }
+    
+    section h3{
+        font-size: 0.9em;
+        line-height: 1.8em;
+    }
+    
+    section img.phoneImg{
+        height: 400px;
+    }
+    
+    .downloadSection h2 {
+        font-size: 2.2em;
+    }
+    
+    .downloadSection h4{
+        font-size: 1em;
+    }
+
+}
+    /*****************************************/
+
+@media(max-width: 768px){
+
+    div.overviewSection div.overviewS1 h2 {
+        font-size: 1.2em;
+    }
+    
+    section img.phoneImg{
+        height: 330px;
+    }
+    
+    div.overviewSection div.overviewS2{
+        flex-direction: column;
+    }
+
+    div.overviewSection div.overviewS2 img{
+        width: 230px;
+    }
+    
+    div.overviewS2 p{
+        width: 230px;
+        font-size: 1em;
+    }
+
+    section h3{
+        margin-bottom: 30px;
+    }
+
+}
+    /*****************************************/
+
+@media(max-width: 525px){
+    
+    .imageContent h2{
+        font-size: 1.5em;
+    }
+
+    div.overviewSection div.overviewS1 h2 {
+        font-size: 1.1em;
+    }
+
+    div.overviewSection div.overviewS1 h4 {
+        font-size: 1.1em;
+    }
+
+    div.overviewSection div.overviewS2 img{
+        width: 180px;
+    }
+    
+    div.overviewS2 p{
+        width: 180px;
+        font-size: 0.9em;
+    }
+    
+    .downloadSection h4{
+        font-size: 0.9em;
+    }
+
+    .downloadSection h2 {
+        font-size: 1.9em;
+    }
+
+    /*about.html*/
+
+    .aboutSection h2,
+    .workSection h2 {
+        font-size: 1.85em;
+    }
+
+    .aboutSection p {
+        line-height: 1.4em;
+        font-size: 0.9em;
+    }
+
+    .ourDetails{
+        margin: 20px 0;
+        padding: 20px 0;
+    }
+
+    .ourDetails img{
+        height: 200px;
+        width: 200px;
+    }
+
+    .ourDetails h5{
+        font-size: 1.5em;
+    }
+
+    .ourDetails p{
+        font-size: 0.70em;
+    }
+
+    .ourDetails a{
+        font-size: 0.7em;
+    }
+
+    .ourDetails a i{
+        font-size: 1.1em;
+        margin-bottom: 20px;
+    }
+
+    .contactForm{
+        padding: 20px 20px;
+        width: 90%;
+        margin: 30px auto;
+        border-radius: 20px;
+        font-size: 0.8em;
+    }
+
+    .contactForm h2{
+        font-size: 1.4em;
+    }
+
+}
+    /*****************************************/
+
+@media(max-width: 406px){
+
+    .imageContent h2{
+        font-size: 1em;
+    }
+
+    div.overviewSection div.overviewS1 h2 {
+        font-size: 0.85em;
+    }
+
+    div.overviewS2 p{
+        line-height: 1.25em;
+        font-size: 0.8em;
+    }
+    
+    section {
+        padding: 10px 0 20px 0;
+    }
+
+    section h4{
+        font-size: 0.9em;
+    }
+    
+    section h3{
+        font-size: 0.8em;
+        line-height: 1.4em;
+    }
+    
+    section img.phoneImg{
+        height: 300px;
+    }
+
+    .downloadSection{
+        margin-bottom: 50px;
+        padding: 50px 0 50px 0;
+    }
+
+    .downloadSection h4{
+        font-size: 0.7em;
+    }
+
+    .downloadSection h2 {
+        font-size: 1.5em;
+    }
+
+    .downloadSection a{
+        font-size: 0.8em;
+    }
+
+    div.imageContent img.imageIcon {
+        width: 3em;
+        margin-bottom: 15px;
+    }
+
+    .imageContent a {
+        font-size: 0.8em;
+    }
+    
+    a img {
+        width: 1.2em;
+    }
+
+    .footerSection {
+        padding: 30px 0 30px 0;
+        font-size: 0.75em;
+    }
+    
+    .footerSection a{
+        font-size: 0.85em;
+    }
+
+    /*about.html*/
+    
+    .aboutSection h2,
+    .workSection h2 {
+        font-size: 1.55em;
+    }
+
+    .aboutSection p {
+        line-height: 1.3em;
+        font-size: 0.8em;
+    }
+
+    .contactForm .form-control{
+        font-size: 0.88em
+    }
+
+    .contactForm div button {
+        font-size: 1em;
+    }
+
+}
+
+/***************************************************************/
+/***************************************************************/
