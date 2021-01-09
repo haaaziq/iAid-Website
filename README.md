@@ -2,6 +2,8 @@
 
 "A cross platform (Android and iOS) Application."
 
+<a href="https://haaaziq.github.io/iAid-Website/" target="_blank">Visit iAid-Website</a> 
+
 It conatains-
 <ul>
   <li>Brief Overview of our project.</li>
