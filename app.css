@@ -464,6 +464,30 @@ div.card img{
         font-size: 1.4em;
     }
 
+    /* working.html */
+
+    .workSection p {
+        line-height: 1.4em;
+        font-size: 0.95em;
+    }
+
+    .toolsUsed h4 {
+        font-size: 1em;
+    }
+    
+    div.card h5 {
+        font-size: 0.95em;
+    }
+    
+    div.card p {
+        font-size: 0.85em;
+        line-height: 1.45em;
+    }
+    
+    div.card img{
+        width: 70px;
+    }
+
 }
     /*****************************************/
 
@@ -556,6 +580,30 @@ div.card img{
 
     .contactForm div button {
         font-size: 1em;
+    }
+
+    /*working.html*/
+
+    .workSection p {
+        line-height: 1.3em;
+        font-size: 0.9em;
+    }
+
+    .toolsUsed h4 {
+        font-size: 1em;
+    }
+    
+    div.card h5 {
+        font-size: 0.8em;
+    }
+    
+    div.card p {
+        font-size: 0.75em;
+        line-height: 1.45em;
+    }
+    
+    div.card img{
+        width: 60px;
     }
 
 }
