@@ -264,8 +264,9 @@ section#requests h4{
     working.html
 ***************************************************************/
 
-.workSection p {
+.workSection ul{
     color: white;
+    letter-spacing: 0.085em;
 }
 
 .toolsUsed h4 {
@@ -466,7 +467,7 @@ div.card img{
 
     /* working.html */
 
-    .workSection p {
+    .workSection ul{
         line-height: 1.4em;
         font-size: 0.95em;
     }
@@ -584,7 +585,7 @@ div.card img{
 
     /*working.html*/
 
-    .workSection p {
+    .workSection ul {
         line-height: 1.3em;
         font-size: 0.9em;
     }
